@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JL Bygg AB</title>
     <link rel="stylesheet" href="resources/css/index.css" />
-    <script src="https://kit.fontawesome.com/7219567928.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7219567928.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="resources/javascript/main.js"></script>
   </head>
   <body>
     <div class="main__container">
       <header>
-          <img src="resources/images/logo.png" alt="logo" />
-<!-- Desktop nav! -->
+        <img src="resources/images/logo.png" alt="logo" />
+        <!-- Desktop nav! -->
         <nav class="nav__container">
           <a href="index.html" id="active">Hem</a>
           <a href="">Om oss</a>
@@ -20,24 +24,52 @@
           <a href="">Uthyrning</a>
           <a href="">Kontakt</a>
         </nav>
-<!--Mobile nav! -->
-
+        <!--Mobile nav! -->
+        <nav class="mobile__nav">
+          <i class="fa-solid fa-bars" onclick="toggleNav()"></i>
+        </nav>
       </header>
+      <div class="mobile__nav__list">
+        <ul>
+          <li><a href="">Hem</a></li>
+          <li><a href="">Om oss</a></li>
+          <li><a href="">Bilder</a></li>
+          <li><a href="">Uthyrning</a></li>
+          <li><a href="">Kontakt</a></li>
+        </ul>
+      </div>
+
       <main>
         <section class="section__container">
           <div class="section__left">
-            <h1>Erfarna snickare<br> i Karlsborg</h1>
-            <p>Vi utför allt inom bygg och snickerier med största kvalitet. Med lång erfarenhet och med kunden i fokus hjälper vi dig med de projekt du behöver hjälp med — renovering, nybyggnation, takläggning, badrum, kök, altan m.m. Vi projektleder och samarbetar med erfarna elektriker, målare, rörmokare och plattsättare. </p>
+            <h1>
+              Erfarna snickare<br />
+              i Karlsborg
+            </h1>
+            <p>
+              Vi utför allt inom bygg och snickerier med största kvalitet. Med
+              lång erfarenhet och med kunden i fokus hjälper vi dig med de
+              projekt du behöver hjälp med — renovering, nybyggnation,
+              takläggning, badrum, kök, altan m.m. Vi projektleder och
+              samarbetar med erfarna elektriker, målare, rörmokare och
+              plattsättare.
+            </p>
             <a href="">Kontakt</a>
           </div>
         </section>
       </main>
       <footer>
         <section class="JL__bygg">JL Bygg AB</section>
-        <section class="plats">Svartfjällsvägen 3<br>546 33 Karlsborg</section>
+        <section class="plats">
+          Svartfjällsvägen 3<br />546 33 Karlsborg
+        </section>
         <section class="social__media">
-            <a href="https://www.facebook.com/profile.php?id=100063488293178"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100063488293178"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100063488293178"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.facebook.com/profile.php?id=100063488293178"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
         </section>
       </footer>
     </div>

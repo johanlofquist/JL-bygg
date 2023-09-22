@@ -33,6 +33,9 @@ header > img {
   margin: auto;
 }
 
+.mobile__nav {
+    display: none;
+}
 .nav__container {
   display: flex;
   height: 70px;
@@ -154,12 +157,49 @@ footer {
     header {
         display: flex;
         justify-content: space-between;
-        width: 90%;
-        margin: 30px 20px;
+        width: 80%;
+        margin: 30px auto;
       }
 
     .nav__container {
         display: none;
+    }
+
+    .mobile__nav {
+        display: block;
+        color: white;
+    }
+    
+    .mobile__nav > i {
+        font-size: 35px;
+        color: var(--orange);
+    }
+    
+    .mobile__nav__list {
+        display: none;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        background-color: black;
+        margin: 0 auto;
+        transition: 500ms ease;
+    }
+
+    .mobile__nav__list > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+
+    }
+    .mobile__nav__list > ul > li {
+        margin-top: 10px;
+        
+    }
+    .mobile__nav__list > ul > li > a {
+        text-decoration: none;
+        color: white;
+
     }
     
     .section__container {
@@ -206,6 +246,5 @@ footer {
         font-size: 25px;
         margin: 0 5px;
       }
-
 
 }
