@@ -52,12 +52,10 @@ header > img {
 }
 
 #active {
-  /* border-bottom: 1px solid var(--orange); */
   color: orange;
 }
 
 .nav__container > a:hover {
-  /* border-bottom: 1px solid var(--orange); */
   color: var(--orange);
 }
 
@@ -74,11 +72,6 @@ header > img {
   transform: rotate(-3deg);
 }
 
-/* .nav__container > a:nth-of-type(5):active {
-    scale: 1;
-    transform: rotate(3deg);
-    transition: 10ms ease;
-} */
 main {
   background-image: linear-gradient(
       to top,
@@ -154,5 +147,11 @@ footer {
 .plats {
 }
 
-.social__media {
+.social__media > a{
+    font-size: 25px;
+    color: white;
+    transition: 200ms ease;
+}
+.social__media > a:hover {
+    color: var(--orange);
 }
