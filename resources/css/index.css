@@ -154,7 +154,7 @@ footer {
     header {
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 90%;
         margin: 30px 20px;
       }
 
