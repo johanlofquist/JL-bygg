@@ -143,13 +143,14 @@ footer {
     font-size: 25px;
     color: white;
     transition: 200ms ease;
+    margin: 0 5px;
 }
 .social__media > a:hover {
     color: var(--orange);
 }
 
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -180,6 +181,7 @@ footer {
         font-size: 16px;
         line-height: 25px;
         width: 90%;
+        text-align: center;
       }
 
       footer {
