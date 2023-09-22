@@ -13,8 +13,6 @@
 body {
   background-color: var(--black);
   font-family: "Montserrat", sans-serif;
-
-  min-height: 1000px;
 }
 
 header {
@@ -76,7 +74,7 @@ main {
   background-image: linear-gradient(
       to top,
       rgba(240, 145, 31, 0.4),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.7)
     ),
     url(../images/takstolar.jpeg);
   background-size: cover;
@@ -183,4 +181,29 @@ footer {
         line-height: 25px;
         width: 90%;
       }
+
+      footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 130px;
+      }
+
+      main {
+        height: 600px;
+      }
+      .JL__bygg {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .social__media {
+        margin-bottom: 20px;
+      }
+      .social__media > a{
+        font-size: 25px;
+        margin: 0 5px;
+      }
+
+
 }
