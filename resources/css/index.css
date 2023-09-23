@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 :root {
   --orange: rgb(240, 145, 31);
   --black: #000;
@@ -12,17 +13,24 @@
 
 body {
   background-color: var(--black);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  height: 2000px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: black;
 }
 
 header {
-  background-color: var(--black);
+  background-color: black;
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 110px;
   align-items: center;
   width: 70%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 header > img {
   width: 150px;
@@ -76,6 +84,11 @@ header > img {
 .nav__container > a:nth-of-type(5):hover {
   scale: 1.2;
   transform: rotate(-3deg);
+}
+
+#stor {
+    scale: 1.2;
+    transform: rotate(-3deg);
 }
 
 main {
@@ -162,7 +175,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 30px auto;
+    margin: 0 auto;
   }
 
   .nav__container {
@@ -183,6 +196,7 @@ footer {
     display: none;
     width: 25%;
     position: absolute;
+    top: 100px;
     right: 8px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.85);
@@ -239,14 +253,14 @@ footer {
     height: 600px;
   }
   .JL__bygg {
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 20px;
   }
   .plats {
     margin-top: 10px;
   }
   .social__media {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
   }
   .social__media > a {
