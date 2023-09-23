@@ -49,14 +49,14 @@ header > img {
   display: none;
 }
 
-.nav__container {
+#nav__container {
   display: flex;
   height: 70px;
   justify-content: flex-end;
   align-items: center;
 }
 
-.nav__container > a {
+#nav__container > a {
   margin: 0 10px;
   text-decoration: none;
   color: white;
@@ -69,11 +69,11 @@ header > img {
   color: orange;
 }
 
-.nav__container > a:hover {
+#nav__container > a:hover {
   color: var(--orange);
 }
 
-.nav__container > a:nth-of-type(5) {
+#nav__container > a:nth-of-type(5) {
   background-color: var(--orange);
   border-radius: 5px;
   padding: 10px;
@@ -81,7 +81,7 @@ header > img {
   color: black;
 }
 
-.nav__container > a:nth-of-type(5):hover {
+#nav__container > a:nth-of-type(5):hover {
   scale: 1.2;
   transform: rotate(-3deg);
 }
@@ -102,7 +102,7 @@ main {
   background-position: 50%;
   background-position-x: left;
 }
-.section__container {
+#section__container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -178,7 +178,7 @@ footer {
     margin: 0 auto;
   }
 
-  .nav__container {
+  #nav__container {
     display: none;
   }
 
@@ -219,7 +219,7 @@ footer {
     color: white;
   }
 
-  .section__container {
+  #section__container {
     margin: 0px auto;
     width: 90%;
     height: 600px;
@@ -252,6 +252,28 @@ footer {
   main {
     height: 600px;
   }
+
+.omoss__container {
+    height: 400px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.omoss__container img{
+
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
   .JL__bygg {
     margin-top: 80px;
     font-size: 20px;
