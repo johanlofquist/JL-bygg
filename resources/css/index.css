@@ -239,11 +239,15 @@ footer {
     height: 600px;
   }
   .JL__bygg {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 20px;
   }
+  .plats {
+    margin-top: 10px;
+  }
   .social__media {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
   }
   .social__media > a {
     font-size: 25px;
