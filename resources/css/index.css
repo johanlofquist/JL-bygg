@@ -280,21 +280,26 @@ footer {
   }
 
   .omoss__container {
-    height: 600px;
+
     text-align: center;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     line-height: 25px;
     background-color: #181818;
+    gap: 20px;
     
   }
 
   .omoss__container > p {
     margin: 0 10%;
+    margin-bottom: 30px;
+  }
+  .omoss__container > h2 {
+    margin: 0 10%;
+    margin-top: 30px;
   }
 
 
