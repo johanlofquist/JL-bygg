@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 :root {
   --orange: rgb(240, 145, 31);
   --black: #000;
@@ -14,13 +14,12 @@
 body {
   background-color: var(--black);
   font-family: "Raleway", sans-serif;
-  height: 2000px;
 }
 
 .sticky {
-    position: sticky;
-    top: 0px;
-    background-color: black;
+  position: sticky;
+  top: 0px;
+  background-color: black;
 }
 
 header {
@@ -87,8 +86,8 @@ header > img {
 }
 
 #stor {
-    scale: 1.2;
-    transform: rotate(-3deg);
+  scale: 1.2;
+  transform: rotate(-3deg);
 }
 
 main {
@@ -253,7 +252,7 @@ footer {
     height: 600px;
   }
 
-.samarbet__container {
+  .samarbet__container {
     height: 480px;
     display: flex;
     margin: 30px auto;
@@ -264,21 +263,35 @@ footer {
     gap: 20px;
     width: 100%;
     background-color: rgb(0, 0, 0);
-}
-.samarbet__container h3 {
+  }
+  .samarbet__container h3 {
     color: white;
-}
+  }
 
-.samarbet__container img{
-
+  .samarbet__container img {
     width: 150px;
+  }
 
-}
+  #jonas {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
 
+  .omoss__container {
+    height: 600px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    line-height: 25px;
 
-
-
-
+  }
 
   .JL__bygg {
     margin-top: 80px;
