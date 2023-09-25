@@ -303,7 +303,7 @@ footer {
   }
 
   .bilder__container {
-    width: 90%;
+    width: 85%;
     margin: 30px auto;
     z-index: -1;
     display: flex;
@@ -344,11 +344,31 @@ footer {
   .uthyrning__container p {
     margin: 0 10%;
     margin-bottom: 30px;
-
-
-
   }
 
+  .kontakt__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    margin-top: 30px;
+    color: white;
+  }
+  .kontakt__container h2 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .p__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .p__container p {
+    margin-bottom: 30px;
+  }
 
 
 
