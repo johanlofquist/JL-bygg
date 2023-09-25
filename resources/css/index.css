@@ -22,6 +22,11 @@ body {
   background-color: black;
 }
 
+.p__container a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
 header {
   background-color: black;
   display: flex;
