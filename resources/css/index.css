@@ -303,9 +303,8 @@ footer {
   }
 
   .bilder__container {
-    width: 85%;
+    width: 90%;
     margin: 30px auto;
-    z-index: -1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -316,14 +315,24 @@ footer {
     color: white;
   }
 
-  .bilder__container a {
-    margin: 0 auto;
+  }
+  #bilder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
-  .bilder__container img {
-    width: 100%;
+  #bilder a {
+
+  }
+  #bilder img {
     z-index: -1;
-    border-radius: 5px;
+    border-radius: 3px;
+    width: 150px;
   }
 
   .uthyrning__container {
